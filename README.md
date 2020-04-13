@@ -2,7 +2,7 @@
 Given the dataset ”dataset.npy”, our task is Genome Sequence Classification where we use the Recurrent Neural Network (RNN). 
 Since our dataset consists of Genome Sequences and our goal is to find the pattern in each given sequence, we specifically 
 utilize the Long Short-Term Memory RNN in Deep Learning which allows us to not only process single data points, but also 
-entire sequences of data. Another example, where LSTM is widely used, is in Natrual Language Processing to learn and predict 
+entire sequences of data. Another example where LSTM is widely used is in Natrual Language Processing to learn and predict 
 the word patterns.
 
 # Analysis
