@@ -18,9 +18,9 @@ an activation function at the end of a hidden unit to introduce non-linear compl
 Sigmoid function to activates the neurons, we use Cross-Entropy Loss (or Log Loss) function defined by 
 L(z,y) = − (y log(z) + (1 − y)log(1 − z)).
 
-To train the neural network we use the Adam’s optimizer which is a Dynamic Stochastic Gradient Descent algorithm where it 
+To train the neural network, we use the Adam’s optimizer that is a Dynamic Stochastic Gradient Descent algorithm which 
 updates the network weights iteratively based on the training data as oppose to the regular Stochastic Gradient Descent 
-methods where the learning rate will not be changed during the training procedure. We also use the Drop-Out set with 18% portion
+methods where the learning rate will not change during the training procedure. We also use the Drop-Out set with 18% portion
 which acts like a regularizer in our neural network structure. We split the data to 80%-20% train-test and perform the 
 5-fold cross-validation to avoid over-fitting issues and discover the hyper-parameters (like epoch size, neuron size, etc.).
 The neuron size is 60 and for the choice of batch size, we tested the size of 300, 400, and 500 for training of the dataset
