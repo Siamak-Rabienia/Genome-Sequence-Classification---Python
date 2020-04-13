@@ -7,7 +7,7 @@ the word patterns.
 
 # Analysis
 The size of genome sequences in dataset are variable. Therefore, we perform padding to fix the size to 190. If the size of the 
-genome is less that 190, our algorithm adds zeros to the sequence to make of size 190. The Structure. The structure of our 
+genome is less that 190, our algorithm adds zeros to the sequence to make of size 190. The structure of our 
 neural network is as follows: the input layer is our genome sequence. The hidden layers consist of four different layers: 
 An embedding layer, which typically project the input space (sequence of size 190) to the lower dimension spaces, as well as 
 two LSTM layers followed by a λ−layer. At the end we have the output layer, see Figure 2. We denote i the i− th layer of the 
